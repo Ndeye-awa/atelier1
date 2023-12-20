@@ -1,0 +1,56 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container{
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(204, 176, 176);
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.part{
+    display: flex;
+}
+
+.inlab{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.butt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.butt1{
+    background-color: green;
+    color: aliceblue;
+}
+.butt2{
+    background-color: red;
+    color: aliceblue;
+}
+button{
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+}
